@@ -4,3 +4,4 @@
 
 layout: home
 ---
+This minimalist webpage documents my daily graduate research progress.

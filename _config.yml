@@ -21,15 +21,13 @@
 title: Research/Self-Study progress log and notes
 email: arka.maity09@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is centrally used to manage the day to day progress
-  of my research/self-study activity to improve productivity.
+  Managing personal reading list for productive self-study on various topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Arka2009
 
 # Build settings
-markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
