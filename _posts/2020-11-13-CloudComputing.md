@@ -5,10 +5,10 @@ date:   2020-11-13  18:14:00 08:00
 categories: Self Study Notes
 usemathjax: true
 ---
-1. Obtain an understanding of the architecture and operations of planet-scale cluster managers and orchestrators. In general read [wsc3e] to get an overview of the architecture and operations of large-scale cloud computing systems.
-    1. Based on loc and language used (C++) [Mesos][mesos], should have minimum learning curve for me to understand. Start with the paper "[Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center][mesos-paper]"
+1. Develop an appreciation (architecture and operations) of planet-scale cluster managers and orchestrators. In general read [wsc3e] to get an overview of the architecture and operations of large-scale cloud computing systems.
+    1. Based on loc and language used (C++) [Mesos][mesos], should have minimum learning curve for me to understand. Start with the paper [Mesos NSDI-2011 paper][mesos-paper].
     2. [Kubernetes][kubernetes] is a more widely used cluster manager (or more narrowly container orchestration system) than [Mesos][mesos], implemented in Go and backed by Google. Read the [Borg][borg-paper] paper to understand some of the key architectural details.
-    3. [KubeEdge][Kubedge] a very container orchestration platform to handle edge computing use cases.
+    3. [KubeEdge][Kubedge] is a new container orchestration platform to handle edge computing use cases.
 
 2. Understanding the workload distributions. Some of the papers [tail at scale][tailAtScale] and [sources of tail latency][tailSources] are a must read.
 
@@ -16,7 +16,7 @@ usemathjax: true
     1. [Ericcson's Graph Machine Learning][gericssonML]
 
 4. Time Series Database
-    1. [Prometheus][prometheus]
+    1. [Prometheus][prometheus] is one of most popular and intuitive time-series database implemented in Go.
 
 [mesos]: http://mesos.apache.org/
 [kubernetes]: https://kubernetes.io/
